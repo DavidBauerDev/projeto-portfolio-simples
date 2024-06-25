@@ -1,4 +1,5 @@
 # projeto-portfolio-simples
+LINK : https://projeto-portfolio-simples.vercel.app/
 - Utilizado conhecimentos de base do programa Oracle Next + Alura
 - Nesta aula final do curso de HTML e CSS, os instrutores Guilherme e Rafaella revisaram os principais tópicos abordados durante o treinamento:
 
