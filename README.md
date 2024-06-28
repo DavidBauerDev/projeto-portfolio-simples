@@ -1,6 +1,6 @@
 # projeto-portfolio-simples
 
-<a href="./images/Cópia de Template - Thumbnails GitHub.png" alt="prévia do projeto"></a>
+<img src="./images/Cópia de Template - Thumbnails GitHub.png" alt="prévia do projeto">
 
 LINK : https://projeto-portfolio-simples.vercel.app/
 - Utilizado conhecimentos de base do programa Oracle Next + Alura
