@@ -4,12 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 
 <body>
-    <header></header>
+    <header class="cabecalho">
+
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__links" href="index.html">Home</a>
+            <a class="cabecalho__menu__links" target="_blank" href="about.html">Sobre mim</a>
+        </nav>
+
+    </header>
     <main class="apresentacao">
         <section class="apresentacao__conteudo" >
                 <h1 class="apresentacao__conteudo__titulo">Eleve seu negócio digital a outro nível<strong class="titulo-destaque" > <br> com um <span>Front-end</span> de
@@ -19,20 +27,27 @@
 
                 <p class="apresentacao__conteudo__texto">Olá! Sou David Bauer, desenvolvedor Front-end com especialidade em React, HTML e CSS. Ajudo pequenos
                     negócios e designers a colocarem em prática boas ideias. Vamos conversar?</p>
-              
+                    <br>
+                <h2 class="apresentacao__links__subtitulo" >Acesse minhas redes:</h2>
+                    <br>
                     <div class="apresentacao__links">
-                    <a href="https://instagram.com/david_baueer" target="_blank"><img alt="Static Badge" src="https://img.shields.io/badge/instagram-%23FD1D1D?style=for-the-badge&logo=instagram&&logoWidth=10logoColor=black&logoSize=auto&link=https%3A%2F%2Fgithub.com%2FDavidBauerDev"></a>
+                    
 
-                    <a href="https://github.com/DavidBauerDev" target="_blank"><img alt="Static Badge" src="https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github&logoWidth=40&logoSize=auto&link=https%3A%2F%2Fgithub.com%2FDavidBauerDev"></a>
+                    <a class="apresentacao__links__link" href="https://instagram.com/david_baueer" target="_blank"><img alt="Static Badge" src="https://img.shields.io/badge/instagram-%23FD1D1D?style=for-the-badge&logo=instagram&&logoWidth=80logoColor=black&logoSize=auto&link=https%3A%2F%2Fgithub.com%2FDavidBauerDev"></a>
 
-                    <a href="https://www.linkedin.com/in/david-bauer-8552b4151/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+                    <a class="apresentacao__links__link" href="https://github.com/DavidBauerDev" target="_blank"><img alt="Static Badge" src="https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github&logoWidth=40&logoSize=auto&link=https%3A%2F%2Fgithub.com%2FDavidBauerDev"></a>
+
+                    <a class="apresentacao__links__link" href="https://www.linkedin.com/in/david-bauer-8552b4151/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
                 </div>
         </section>
 
-        <img src="images/img_portfolio.jpg" alt="Minha imagem de perfil" width="388" height="250">
+        <img class="img__perfil" src="images/img_portfolio.jpg" alt="Minha imagem de perfil" width="450" height="270">
 
     </main>
-    <footer></footer>
+    <footer>
+        <p class="rodape">© Copyright 2024 David Bauer</p>
+ 
+    </footer>
 </body>
 
 </html>
